@@ -66,7 +66,7 @@
 
 <body>
 	
-	<div class="container-fluid" style="padding:0;">
+	<div class="container-fluid" style="padding:0;"><!--container principal-->
 
 <!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
 		<div class="hidden-xs col-sm-3 col-md-2  noselect" id="sideMenu">
@@ -83,17 +83,112 @@
 		</div>
 <!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
 		<div class="col-md-10">
-			<div class="row" id="inicio">
+			<div class="row" id="inicio" hidden>
 				<h1>Inicio</h1>
 			</div>
-
-			<div class="row" id="novoPedido">
+<!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
+			<div class="row" id="novoPedido" hidden>
 				<h1>Novo Pedido</h1>
 			</div>
-
+<!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
 			<div class="row" id="cadastrarCliente">
 				<h1>Cadastrar Cliente</h1>
+
+				<div class="col-md-6">
+
+				    <div class="signup-form-container">
+				    
+					 <!-- form start -->
+					 <form role="form" id="register-form" autocomplete="off">
+
+					 
+					 <div class="form-body">
+						      
+					    <div class="form-group">
+						   <div class="input-group">
+						   <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+						   <input name="name" type="text" class="form-control" placeholder="Nome">
+						   </div>
+						   <span class="help-block" id="error"></span>
+					      </div>
+						
+					      <div class="form-group">
+						   <div class="input-group">
+						   <div class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></div>
+						   <input name="email" type="text" class="form-control" placeholder="Telefone">
+						   </div> 
+						   <span class="help-block" id="error"></span>                     
+					      </div>
+						
+					      <div class="row">
+						
+						   <div class="form-group col-lg-6">
+							<div class="input-group">
+							<div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+							<input name="password" id="password" type="password" class="form-control" placeholder="Password">
+							</div>  
+							<span class="help-block" id="error"></span>                    
+						   </div>
+							    
+						   <div class="form-group col-lg-6">
+							<div class="input-group">
+							<div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+							<input name="cpassword" type="password" class="form-control" placeholder="Retype Password">
+							</div>  
+							<span class="help-block" id="error"></span>                    
+						   </div>
+							    
+					     </div>
+						
+						
+					    </div>
+					    
+					    <div class="form-footer">
+						 <button type="submit" class="btn btn-info">
+						 <span class="glyphicon glyphicon-log-in"></span> Cadastrar
+						 </button>
+					    </div>
+
+
+					    </form>
+					    
+					   </div>
+
+				 </div>
+
+
+
+
+
+
+
 			</div>
+<!--**************************************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 			<div class="row" id="cadastrarProduto">
 				<h1>Cadastrar Produto</h1>
