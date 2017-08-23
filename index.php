@@ -91,114 +91,238 @@
 				<h1>Novo Pedido</h1>
 			</div>
 <!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
-			<div class="row" id="cadastrarCliente">
-				<h1>Cadastrar Cliente</h1>
-
+			<div class="row" id="cadastrarCliente" >
 				<div class="col-md-6">
+					<div class="signup-form-container">
+					<!-- form start -->
+					<form role="form" id="register-form" autocomplete="off">
+						<div class="form-header">
+							<h1 class="form-title" style="margin-bottom:50px;"><i class="fa fa-user"></i> Cadastrar Cliente</h1>              
+						</div>
 
-				    <div class="signup-form-container">
-				    
-					 <!-- form start -->
-					 <form role="form" id="register-form" autocomplete="off">
+						<div class="form-body">
 
-					 
-					 <div class="form-body">
-						      
-					    <div class="form-group">
-						   <div class="input-group">
-						   <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
-						   <input name="name" type="text" class="form-control" placeholder="Nome">
-						   </div>
-						   <span class="help-block" id="error"></span>
-					      </div>
-						
-					      <div class="form-group">
-						   <div class="input-group">
-						   <div class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></div>
-						   <input name="email" type="text" class="form-control" placeholder="Telefone">
-						   </div> 
-						   <span class="help-block" id="error"></span>                     
-					      </div>
-						
-					      <div class="row">
-						
-						   <div class="form-group col-lg-6">
-							<div class="input-group">
-							<div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-							<input name="password" id="password" type="password" class="form-control" placeholder="Password">
-							</div>  
-							<span class="help-block" id="error"></span>                    
-						   </div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-12">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-user"></span>
+										</div>
+										<input name="nome" type="text" class="form-control" placeholder="Nome">
+							   		</div>
+							   		<span class="help-block" id="error"></span>
+								</div>
+							</div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-8">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-road"></span>
+										</div>
+										<input name="rua" type="text" class="form-control" placeholder="Rua">
+									</div>
+									<span class="help-block" id="error"></span>                     
+								</div>
+
+								<div class="form-group col-md-4">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-home"></span>
+										</div>
+										<input name="numero" type="number" class="form-control" placeholder="Numero">
+									</div>
+									<span class="help-block" id="error"></span>                     
+								</div>
+
+								<div class="form-group col-md-6">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-envelope"></span>
+										</div>
+										<input name="cep" type="number" class="form-control" placeholder="Cep">
+									</div>
+									<span class="help-block" id="error"></span>                     
+								</div>
+
+								<div class="form-group col-md-6">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-map-marker"></span>
+										</div>
+										<input name="ref" type="text" class="form-control" placeholder="Ponto de Referencia">
+									</div>
+									<span class="help-block" id="error"></span>                     
+								</div>
+
+
+
+							</div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-6">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-earphone"></span>
+										</div>
+										<input name="phone" id="phone" type="number" class="form-control" placeholder="Telefone">
+									</div>  
+									<span class="help-block" id="error"></span>                    
+								</div>
 							    
-						   <div class="form-group col-lg-6">
-							<div class="input-group">
-							<div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
-							<input name="cpassword" type="password" class="form-control" placeholder="Retype Password">
-							</div>  
-							<span class="help-block" id="error"></span>                    
-						   </div>
-							    
-					     </div>
-						
-						
-					    </div>
-					    
-					    <div class="form-footer">
-						 <button type="submit" class="btn btn-info">
-						 <span class="glyphicon glyphicon-log-in"></span> Cadastrar
-						 </button>
-					    </div>
+								<div class="form-group col-md-6">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-phone"></span>
+										</div>
+										<input name="celphone" type="number" class="form-control" placeholder="Celular">
+									</div>  
+									<span class="help-block" id="error"></span>                    
+						   		</div>
+					     		</div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+						</div>
 
+						<div class="form-footer">
+							<button type="submit" class="btn btn-lg btn-info">
+								<span class="glyphicon glyphicon-floppy-disk"></span> Salvar
+							</button>
+						</div>
+					</form>
+					</div>
+				</div>
 
-					    </form>
-					    
-					   </div>
+				<div class="col-md-6 text-center">
+					<h1>Clientes Cadastrados</h1>
 
-				 </div>
+					<!-- striped style  OU TABELA ZEBRA-->
+					<table class="table table-striped">
+					    <thead>
+						<tr>
+						    <th>ID</th>
+						    <th>Nome</th>
+						    <th>Telefone</th>
+						    <th>Endereço</th>
+						</tr>
+					    </thead>
 
+					    <tbody>
+						<tr>
+						    <td>1</td>
+						    <td>John Pate</td>
+						    <td>AUSXYZ1481</td>
+						    <td>johnpate@mydomain.com</td>
+						</tr>
+						<tr>
+						    <td>2</td>
+						    <td>Gina Ray</td>
+						    <td>AUSXYZ2932</td>
+						    <td>ginaray@mydomain.com</td>
+						</tr>
+						<tr>
+						    <td>3</td>
+						    <td>Paul Smith</td>
+						    <td>AUSXYZ6381</td>
+						    <td>paulsmith@mydomain.com</td>
+						</tr>
+						<tr>
+						    <td>4</td>
+						    <td>Darryl Rob</td>
+						    <td>AUSXYZ7264</td>
+						    <td>darrylrob@mydomain.com</td>
+						</tr>
+						<tr>
+						    <td>5</td>
+						    <td>Tina Michael</td>
+						    <td>AUSXYZ8330</td>
+						    <td>tinamichael@mydomain.com</td>
+						</tr>
 
-
-
-
-
-
+					    </tbody>
+					</table>
+				</div>
 			</div>
-<!--**************************************************************************************************************************-->
+<!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
+
+			<div class="row" id="cadastrarProduto" hidden>
+				<div class="col-md-6">
+					<div class="signup-form-container">
+					<!-- form start -->
+					<form role="form" id="register-form" autocomplete="off">
+						<div class="form-header">
+							<h1 class="form-title" style="margin-bottom:50px;"><i class="fa fa-user"></i> Cadastrar Produto</h1>              
+						</div>
+
+						<div class="form-body">
+
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-12">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-barcode"></span>
+										</div>
+										<input name="nomeProduto" id="nomeProduto" type="text" class="form-control" placeholder="Nome do Produto">
+									</div>  
+									<span class="help-block" id="error"></span>                    
+								</div>
+							</div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-6">
+									<div class="input-group">
+										<div class="input-group-addon">
+											<span class="glyphicon glyphicon-usd"></span>
+										</div>
+										<input name="precoProduto" id="precoProduto" type="number" class="form-control" placeholder="Preço">
+									</div>  
+									<span class="help-block" id="error"></span>                    
+								</div>
+							</div>
+							<!--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--->
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label for="categoriaProduto">Categoria</label>
+									<select class="form-control" id="categoriaProduto">
+										<option>Comidas</option>
+										<option>Bebidas</option>
+										<option>Porções</option>
+									</select>
+								</div>
+							</div>
 
 
+						</div>
 
+						<div class="form-footer">
+							<button type="submit" class="btn btn-lg btn-info">
+								<span class="glyphicon glyphicon-floppy-disk"></span> Salvar
+							</button>
+						</div>
+					</form>
+					</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<div class="row" id="cadastrarProduto">
-				<h1>Cadastrar Produto</h1>
+				</div>
 			</div>
+<!--  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  -->
 
-			<div class="row" id="localizarCliente">
+
+
+
+
+
+
+
+
+
+
+
+			<div class="row" id="localizarCliente" hidden>
 				<h1>Localizar Cliente</h1>
 			</div>
 
-			<div class="row" id="exibirCardapio">
+			<div class="row" id="exibirCardapio" hidden>
 				<h1>Exibir Cardapio</h1>
 			</div>
 		</div>
