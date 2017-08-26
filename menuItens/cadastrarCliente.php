@@ -1,4 +1,4 @@
-<div class="row" id="cadastrarCliente" >
+
 	<div class="col-md-6">
 		<div class="signup-form-container">
 		<!-- form start -->
@@ -90,4 +90,8 @@
 		</form>
 		</div>
 	</div>
-</div>
+
+	<div class="col-md-4">
+		<h1>vazio</h1>
+
+	</div>

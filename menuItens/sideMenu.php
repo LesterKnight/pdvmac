@@ -1,4 +1,4 @@
-<div class="hidden-xs col-sm-3 col-md-2  noselect" id="sideMenu">
+<div class="hidden-xs hidden-sm col-md-2  noselect" id="sideMenu">
 	<div class="row">
 		<ul id="sideMenuItens">
 			<li><span class="glyphicon glyphicon-home"></span> Inicio</li>
