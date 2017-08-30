@@ -15,9 +15,9 @@
 	<div class="container-fluid" style="padding:0;"><!--container principal-->
 		<?php
 			include "menuItens/sideMenu.php";
-			//include "menuItens/pdv.php"; 
+			include "menuItens/pdv.php"; 
 			//include "menuItens/cadastrarCliente.php";
-			include "menuItens/localizarCliente.php";
+			//include "menuItens/localizarCliente.php";
 			//include "menuItens/cadastrarProduto.php";
 		?>
 <!--
