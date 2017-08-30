@@ -1,23 +1,91 @@
 	<div class="col-md-10">
-		<h1>Nova Venda</h1>
+		<h1 style="margin-bottom:50px;">Nova Venda</h1>
 
 		<row>
-			<div class="col-md-8" style="background-color:rgba(0,0,255,.1);height:400px;">
-				<div class="col-md-3" style="background-color:rgba(255,0,0,.2);height:100px;">
-					<img src="img/hamburger.png" style="max-width:100px"/>
+			<div class="col-md-8" style="height:500px;">
+				<div class="col-md-3" style="height:60px;">
+					<img src="img/hamburger.png" style="max-width:60px"/>
 				</div>
-				<div class="col-md-3" style="background-color:rgba(0,255,0,.2);height:100px;">
-					<img src="img/beverage_can.png" style="max-width:100px"/>
+				<div class="col-md-3" style="height:60px;">
+					<img src="img/beverage_can.png" style="max-width:60px"/>
 				</div>
-				<div class="col-md-3" style="background-color:rgba(0,0,255,.2);height:100px;">
-					<img src="img/fritas.jpg" style="max-width:100px"/>
+				<div class="col-md-3" style="height:60px;">
+					<img src="img/fritas.jpg" style="max-width:60px"/>
 				</div>
-				<div class="col-md-3" style="background-color:rgba(0,0,0,.2);height:100px;">
-					<h2>Outros</h2>
+				<div class="col-md-3" style="height:60px;">
+					<img src="img/beer_mug.png" style="max-width:60px"/>
 				</div>
 
-				<div class="col-md-12" style="">
+				<div class="col-md-12" style="height:300px;">
 
+
+<style>
+.selecionado > td{
+	background-color: rgba(0,0,255,.5);
+	color: white;
+	font-weight: bolder;
+	font-size:12pt;
+
+}
+</style>
+
+<table class="table table-striped">
+			    <thead>
+				<tr>
+				    <th>Id</th>
+				    <th>Nome</th>
+				    <th>Preço</th>
+				    <th>Qtd</th>
+
+				</tr>
+			    </thead>
+				    
+				    <tbody>
+				<tr class="selecionado">
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+				    <td>1</td>
+				    <td>John Pate</td>
+				    <td>51986607668</td>
+				    <td>51986607668</td>
+				</tr>
+
+				    </tbody>
+
+			</table>
+
+
+
+
+
+
+
+
+
+				</div>
 
 
 
