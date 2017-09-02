@@ -29,7 +29,7 @@
 }
 </style>
 
-<table class="table table-striped">
+		<table class="table table-striped">
 			    <thead>
 				<tr>
 				    <th>Id</th>
@@ -41,32 +41,37 @@
 			    </thead>
 				    
 				    <tbody>
-				<tr class="selecionado">
+				<tr class="selecionado produtoVenda">
+				    <td class="id">1</td>
+				    <td class="name">John Pate</td>
+				    <td class="price">51986607668</td>
+				    <td class="qtd">51986607668</td>
+				</tr>
+				<tr class="produtoVenda">
 				    <td>1</td>
 				    <td>John Pate</td>
 				    <td>51986607668</td>
 				    <td>51986607668</td>
 				</tr>
+				<tr class="produtoVenda">
 				    <td>1</td>
 				    <td>John Pate</td>
 				    <td>51986607668</td>
 				    <td>51986607668</td>
 				</tr>
+				<tr class="produtoVenda">
 				    <td>1</td>
 				    <td>John Pate</td>
 				    <td>51986607668</td>
 				    <td>51986607668</td>
 				</tr>
+				<tr class="produtoVenda">
 				    <td>1</td>
 				    <td>John Pate</td>
 				    <td>51986607668</td>
 				    <td>51986607668</td>
 				</tr>
-				    <td>1</td>
-				    <td>John Pate</td>
-				    <td>51986607668</td>
-				    <td>51986607668</td>
-				</tr>
+				<tr class="produtoVenda">
 				    <td>1</td>
 				    <td>John Pate</td>
 				    <td>51986607668</td>
@@ -77,16 +82,20 @@
 
 			</table>
 
-
-
-
-
-
-
-
-
 				</div>
+<script>
+	
+	function addSelect(prod){
+		$(".produtoVenda").each(function(){
+			$(this).removeClass("selecionado");
+		});
+		$(prod).addClass("selecionado");
+	}
 
+	$(".produtoVenda").click(function(){
+		addSelect(this);
+	});
+</script>
 
 
 
