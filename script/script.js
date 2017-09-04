@@ -7,6 +7,16 @@ $(document).ready(
 
 
 		//menu
+
+		function swapDivs(div){
+			$("#div_localizar").hide();
+			$("#div_pdv").hide();
+			$("#div_cadastrar").hide();
+			$("#div_cadproduto").hide();
+			$("#"+div).show();
+		}
+
+
 		function swapMenuItens(){
 			$("#sideMenuItens li").each(
 				function(){
@@ -19,6 +29,7 @@ $(document).ready(
 			function(){
 				swapMenuItens();
 				$(this).addClass("menuSelected");
+				swapDivs($(this).attr("value"));
 			}
 
 		);
@@ -63,9 +74,5 @@ $(document).ready(
 
 );
 
-		function swapDivs(div){
-			$("#div_localizar").hide();
-			$("#div_pdv").hide();
-			$("#"+div).show();
-		}
+
 

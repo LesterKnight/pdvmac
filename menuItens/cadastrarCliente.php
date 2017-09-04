@@ -1,5 +1,5 @@
 
-	<div class="col-md-6">
+	<div class="col-md-10" id="div_cadastrar" hidden>
 		<div class="signup-form-container">
 		<!-- form start -->
 		<form role="form" id="register-form" autocomplete="off">
@@ -91,7 +91,3 @@
 		</div>
 	</div>
 
-	<div class="col-md-4">
-		<h1>vazio</h1>
-
-	</div>
