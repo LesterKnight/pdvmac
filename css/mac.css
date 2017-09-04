@@ -34,6 +34,9 @@
 		background-color:rgb(93, 103, 113);
 
 	}
+	.menuSelected{
+		background-color: rgb(93, 103, 113);
+	}
 
 	#sideMenuItens span {
 		color: rgba(255,255,255,.8);

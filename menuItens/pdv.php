@@ -1,4 +1,4 @@
-	<div class="col-md-10">
+	<div class="col-md-10" id="div_pdv" hidden>
 		<h1 style="margin-bottom:50px;">Nova Venda</h1>
 
 		<row>
@@ -83,20 +83,6 @@
 			</table>
 
 				</div>
-<script>
-	
-	function addSelect(prod){
-		$(".produtoVenda").each(function(){
-			$(this).removeClass("selecionado");
-		});
-		$(prod).addClass("selecionado");
-	}
-
-	$(".produtoVenda").click(function(){
-		addSelect(this);
-	});
-</script>
-
 
 
 
