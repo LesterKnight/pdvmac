@@ -1,7 +1,7 @@
 <?
-if (isset($_POST["clienteId"])
+if (isset($_POST["clienteId"]))
 	$clienteId = $_POST["clienteId"];
-else if(isset($_POST["nome"]) && isset($_POST["telefone"]) && isset($_POST["celular"]){
+else if(isset($_POST["nome"]) && isset($_POST["telefone"]) && isset($_POST["celular"])){
 	$nome = $_POST["nome"];
 	$telefone = $_POST["telefone"];
 	$celular = $_POST["celular"];
@@ -9,14 +9,13 @@ else if(isset($_POST["nome"]) && isset($_POST["telefone"]) && isset($_POST["celu
 else
 	die("Erro, impossivel salvar os dados do cliente");
 
-phpclass Cliente{
+class Cliente{
 	public $clienteId;
 	public $nome;
 	public $telefone;
 	public $celular;
-	public $endereco;
 
-	function __construct($nome,$telefone,$celular,$endereco) {
+	function __construct($nome,$telefone,$celular) {
 		$this->nome = $nome;
 		$this->telefone = $telefone;
 		$this->celular = $celular;
@@ -38,6 +37,6 @@ phpclass Cliente{
 		}
 	}
 }
-$cliente = new Cliente("joao", "123123", "234234", "rua tal");
+$cliente = new Cliente($nome, $telefone, $celular);
 $cliente->salvar();
 ?>
