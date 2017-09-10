@@ -1,0 +1,1 @@
+<?php	$host = "localhost";	$user = "root";	$pass = "";	$banco = "mcdavila";	$conn = new PDO("mysql:host=$host;dbname=$banco", $user, $pass,	array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")	);	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); ?>

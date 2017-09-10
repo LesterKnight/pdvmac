@@ -1,5 +1,5 @@
 <div class="col-md-10" id="div_localizar" hidden>
-	<h1>Clientes Cadastradoss</h1>
+	<h1>Clientes Cadastrados</h1>
 	<div class="col-md-12" style="overflow-y:scroll;max-height:60vh">
 	<!-- striped style  OU TABELA ZEBRA-->
 		<table class="table table-striped">

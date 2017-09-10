@@ -59,15 +59,22 @@
 
 
 		<div class="col-md-6" style="background-color:rgba(0,0,0,.05);max-height: 100vh;overflow:auto;">
-			<h1>Produtos Cadastrados</h1>
+			<div class="col-md-12" style="position:fixed;top:0;background-color:rgb(242,242,242);z-index:1;">			
+				<h1>Produtos Cadastrados</h1>
+			</div>
+
+
+			<div class="col-md-12" style="margin-top:100px;">
 			<!-- striped style  OU TABELA ZEBRA-->
-			<table class="table table-striped">
+			<table class="table table-striped" style="display:block;max-height:300px;overflow-y:scroll;">
 				<thead>
 					<tr>
 						<th>ID</th>
 						<th>Nome</th>
 						<th>Tipo</th>
 						<th>Preço</th>
+						<th>Editar</th>
+						<th>Excluir</th>
 					</tr>
 				</thead>
 
@@ -186,7 +193,7 @@
 				</tbody>
 			</table>
 			<!--BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA BUSCA -->
-			<div class="signup-form-container">
+			<div class="signup-form-container" style="position:fixed;bottom:0;background-color:rgb(242,242,242)">
 			<!-- form start -->
 				<form role="form" id="register-form" autocomplete="off">
 					<div class="form-header">

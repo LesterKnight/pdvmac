@@ -83,7 +83,8 @@
 			</table>
 
 				</div>
-
+				<button type="submit" class="btn btn-lg btn-success">Adicionar</button>
+				<button type="submit" class="btn btn-lg btn-danger">Remover</button>
 
 
 
@@ -91,7 +92,7 @@
 			</div>
 
 
-			<div class="col-md-4" style="height:300px;background-color:rgba(225,229,170,.5)">
+			<div class="col-md-4" style="height:400px;background-color:rgba(225,229,170,.5);border-style:dashed;">
 				Nota Fiscal
 
 				

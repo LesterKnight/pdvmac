@@ -20,6 +20,7 @@
 			include "menuItens/cadastrarCliente.php";
 			include "menuItens/localizarCliente.php";//*
 			include "menuItens/cadastrarProduto.php";
+			include "pdoconf.php";
 
 		?>
 
